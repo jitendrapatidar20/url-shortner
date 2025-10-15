@@ -8,7 +8,7 @@ A Laravel 11 project implementing a URL Shortener system with role-based access,
 4. php artisan key:generate
 5. php artisan migrate
 6. php artisan db:seed --class=SuperAdminSeeder
-   This creates roles, a sample company and a SuperAdmin user (superadmin@sembark.com / superadmin)
+   This creates roles, a sample company and a SuperAdmin user (Email : superadmin@sembark.com / Password : superadmin)
 7. php artisan serve
 8. Visit /login to authenticate and then /admin/short-urls
 
