@@ -1,0 +1,24 @@
+$str = "sghs__ui_op__yyy";
+
+Replace __ (double underscore) to   $ 
+without using str_replace and rematch 
+any other function you can u
+
+
+user name table and have following column
+1. username 
+2. dob
+3 phone
+
+
+1 find current month dob username
+2. find usernames that name's third character is "s"
+
+str = "aabbccddee";
+find character count
+
+
+
+
+
+
