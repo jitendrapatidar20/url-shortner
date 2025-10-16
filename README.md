@@ -1,4 +1,4 @@
-# 🚀 Sembark URL Shortener
+# 🚀 URL Shortener
 
 A Laravel 11 project implementing a URL Shortener system with role-based access, invitations, and company-level management.
 
