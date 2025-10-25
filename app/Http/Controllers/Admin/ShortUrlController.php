@@ -67,7 +67,6 @@ class ShortUrlController extends BaseController
             'original_url'=>$request->original_url,
             'created_by'=>$user->id,
             'company_id'=>$user->company_id,
-            'access_token'=>$accessToken,
         ]);
 
         return redirect()->route('admin.short_urls.index')->with('success','Short URL created: '.url('/r/'.$shortCode));
