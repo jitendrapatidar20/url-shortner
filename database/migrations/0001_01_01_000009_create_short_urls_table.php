@@ -12,7 +12,6 @@ return new class extends Migration
             $table->id();
             $table->string('short_code')->unique();
             $table->text('original_url');
-            $table->string('access_token')->nullable();
             $table->unsignedBigInteger('hits')->default(0);
             $table->foreignId('created_by')->constrained('users')->cascadeOnDelete();
             $table->foreignId('company_id')->nullable()->constrained()->cascadeOnDelete();
